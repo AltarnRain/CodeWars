@@ -8,22 +8,21 @@ public class IQ
     {
         var returnValue = -1;
         var a = numbers.Split(' ');
+        var nList = new List<int>();
         for (var i = 0; i < a.Length; i++)
         {
             int n;
-            var nList = new List<int>();
             if (int.TryParse(a[i], out n))
             {
                 nList.Add(n);
             }
-
-            var even = nList.Where(e => e % 2 == 0);
-            var uneven = nList.Where(e => e % 2 > 0);
-
-            int weirdNum = even.Count() > uneven.Count() ? uneven.First() : even.First();
-
-            returnValue = nList.FindIndex(e => e ==weirdNum) + 1;
         }
+        var even = nList.Where(e => e % 2 == 0);
+        var uneven = nList.Where(e => e % 2 > 0);
+
+        int weirdNum = even.Count() > uneven.Count() ? uneven.First() : even.First();
+
+        returnValue = nList.FindIndex(e => e == weirdNum) + 1;
 
         return returnValue;
     }

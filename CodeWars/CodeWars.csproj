@@ -50,8 +50,8 @@
   <ItemGroup>
     <Compile Include="IQ\IQ.cs" />
     <Compile Include="IQ\IQTests.cs" />
-    <Compile Include="NarcissisticNumber\NarcissisticNumber.cs" />
-    <Compile Include="NarcissisticNumber\NarcissisticNumberTests.cs" />
+    <Compile Include="PrimeNumbers\PrimeNumber.cs" />
+    <Compile Include="PrimeNumbers\PrimeNumberTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
