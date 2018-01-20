@@ -50,14 +50,23 @@
   <ItemGroup>
     <Compile Include="IQ\IQ.cs" />
     <Compile Include="IQ\IQTests.cs" />
+    <Compile Include="IsTriangle\Triangle.cs" />
+    <Compile Include="IsTriangle\TriangleTests.cs" />
+    <Compile Include="PopulationGrowth\PopulationGrowth.cs" />
+    <Compile Include="PopulationGrowth\PopulationGrowthTests.cs" />
     <Compile Include="PrimeNumbers\PrimeNumber.cs" />
     <Compile Include="PrimeNumbers\PrimeNumberTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PopulationGrowth\Instructions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

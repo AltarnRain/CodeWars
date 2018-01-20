@@ -4,7 +4,7 @@
     using System.Collections.Generic;
 
     [TestFixture]
-    public class SolutionTest
+    public class PrimeNumberTests
     {
         private static IEnumerable<TestCaseData> sampleTestCases
         {
