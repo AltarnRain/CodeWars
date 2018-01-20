@@ -1,7 +1,6 @@
 ﻿namespace Solution
 {
     using NUnit.Framework;
-    using System;
     using System.Collections.Generic;
 
     [TestFixture]
