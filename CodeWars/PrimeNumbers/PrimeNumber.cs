@@ -1,4 +1,5 @@
-﻿public static class Kata
+﻿
+public static class Kata
 {
     public static bool IsPrime(int n)
     {
@@ -10,7 +11,7 @@
             return false;
 
         var i = 5;
-        while (i * i <= n)        
+        while (i * i <= n)
             if (n % i == 0 || n % (i + 2) == 0)
                 return false;
             else

@@ -52,10 +52,14 @@
     <Compile Include="IQ\IQTests.cs" />
     <Compile Include="IsTriangle\Triangle.cs" />
     <Compile Include="IsTriangle\TriangleTests.cs" />
+    <Compile Include="MultiplesOf3Or5\MultiplesOf3Or5Tests.cs" />
     <Compile Include="PopulationGrowth\PopulationGrowth.cs" />
     <Compile Include="PopulationGrowth\PopulationGrowthTests.cs" />
+    <Compile Include="MultiplesOf3Or5\MultiplesOf3Or5.cs" />
     <Compile Include="PrimeNumbers\PrimeNumber.cs" />
     <Compile Include="PrimeNumbers\PrimeNumberTests.cs" />
+    <Compile Include="Scrambles\Scrambles.cs" />
+    <Compile Include="Scrambles\ScramblesTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PopulationGrowth\Instructions.txt" />
+    <Content Include="Scrambles\Instructions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
