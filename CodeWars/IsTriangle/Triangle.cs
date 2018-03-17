@@ -1,7 +1,10 @@
-﻿public class Triangle
+﻿namespace CodeWars.Triange
 {
-    public static bool IsTriangle(int a, int b, int c)
+    public class Triangle
     {
-        return a + b > c && a + c > b && b + c > a;
-    }
+        public static bool IsTriangle(int a, int b, int c)
+        {
+            return a + b > c && a + c > b && b + c > a;
+        }
+    } 
 }

@@ -1,12 +1,17 @@
 ﻿using NUnit.Framework;
 using System;
 
-[TestFixture]
-public class TriangleTests
+
+
+namespace CodeWars.Triange
 {
-    [Test]
-    public void IsTriangle_ValidPostiveNumbers_ReturnsTrue()
+    [TestFixture]
+    public class TriangleTests
     {
-        Assert.IsTrue(Triangle.IsTriangle(5, 7, 10));
-    }
+        [Test]
+        public void IsTriangle_ValidPostiveNumbers_ReturnsTrue()
+        {
+            Assert.IsTrue(Triangle.IsTriangle(5, 7, 10));
+        }
+    } 
 }

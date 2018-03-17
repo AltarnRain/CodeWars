@@ -1,10 +1,13 @@
-﻿using System;
-
-class Arge
+﻿namespace CodeWars.PopulationGrowth
 {
+    using System;
 
-    public static int NbYear(int p0, double percent, int aug, int p)
+    class Arge
     {
-        return -1;
-    }
+
+        public static int NbYear(int p0, double percent, int aug, int p)
+        {
+            return -1;
+        }
+    } 
 }
