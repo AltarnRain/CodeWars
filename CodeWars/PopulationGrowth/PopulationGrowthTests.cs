@@ -1,4 +1,4 @@
-﻿namespace CodeWars.PopulationGrowth
+﻿namespace PopulationGrowth
 {
     using System;
     using NUnit.Framework;

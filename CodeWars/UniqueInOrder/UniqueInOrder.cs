@@ -11,24 +11,7 @@ namespace UniqueInOrder
     {
         public static IEnumerable<T> UniqueInOrder<T>(IEnumerable<T> iterable)
         {
-            var returnValue = new List<T>();
-            var l = iterable.ToList();
-            for (var i = 0; i < iterable.Count(); i++)
-            {
-                if (i == 0)
-                {
-                    returnValue.Add(l[i]);
-                }
-                else
-                {
-                    if (!l[i].Equals(l[i - 1]))
-                    {
-                        returnValue.Add(l[i]);
-                    }
-                }
-            }
-
-            return returnValue;
+            return iterable.Where((v, i) => i == 0 ? true : !v.Equals(iterable.ElementAt(i - 1)));
         }
     } 
 }

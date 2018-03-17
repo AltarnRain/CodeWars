@@ -4,7 +4,7 @@
     using System;
 
     [TestFixture]
-    public class SolutionTest
+    public class UniqueInOderTests
     {
         [Test]
         public void EmptyTest()

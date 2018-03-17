@@ -50,6 +50,10 @@
   <ItemGroup>
     <Compile Include="BitCounting\BitCounting.cs" />
     <Compile Include="BitCounting\BitCountingTests.cs" />
+    <Compile Include="BitCounting\SortTheOdd\SortTheOdd.cs" />
+    <Compile Include="BitCounting\SortTheOdd\SortTheOddTests.cs" />
+    <Compile Include="CountSmilyFaces\CountSmilyFaces.cs" />
+    <Compile Include="CountSmilyFaces\CountSmilyFacesTests.cs" />
     <Compile Include="DeleteNth\DeleteNth.cs" />
     <Compile Include="DeleteNth\DeleteNthTests.cs" />
     <Compile Include="IQ\IQ.cs" />
@@ -76,6 +80,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CountSmilyFaces\Instructions.txt" />
     <Content Include="DeleteNth\Instructions.txt" />
     <Content Include="PopulationGrowth\Instructions.txt" />
     <Content Include="Scrambles\Instructions.txt" />

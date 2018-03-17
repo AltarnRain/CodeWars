@@ -1,4 +1,4 @@
-﻿namespace CodeWars.PrimeNumbers
+﻿namespace PrimeNumbers
 {
     namespace Solution
     {
