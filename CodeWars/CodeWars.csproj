@@ -50,8 +50,8 @@
   <ItemGroup>
     <Compile Include="BitCounting\BitCounting.cs" />
     <Compile Include="BitCounting\BitCountingTests.cs" />
-    <Compile Include="BitCounting\SortTheOdd\SortTheOdd.cs" />
-    <Compile Include="BitCounting\SortTheOdd\SortTheOddTests.cs" />
+    <Compile Include="SortTheOdd\SortTheOdd.cs" />
+    <Compile Include="SortTheOdd\SortTheOddTests.cs" />
     <Compile Include="CountSmilyFaces\CountSmilyFaces.cs" />
     <Compile Include="CountSmilyFaces\CountSmilyFacesTests.cs" />
     <Compile Include="DeepCount\DeepCount.cs" />
@@ -74,6 +74,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TheSuperMarketQueue\TheSuperMarketQueue.cs" />
     <Compile Include="TheSuperMarketQueue\TheSuperMarketQueueTests.cs" />
+    <Compile Include="TortoiseRace\TortoiseRace.cs" />
+    <Compile Include="TortoiseRace\TortoiseRaceTests.cs" />
     <Compile Include="UniqueInOrder\UniqueInOrder.cs" />
     <Compile Include="UniqueInOrder\UniqueInOrderTests.cs" />
   </ItemGroup>

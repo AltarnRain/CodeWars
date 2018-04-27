@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BitCounting
+namespace CodeWars.BitCounting
 {
     using System;
     using NUnit.Framework;

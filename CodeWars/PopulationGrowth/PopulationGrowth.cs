@@ -1,4 +1,4 @@
-﻿namespace PopulationGrowth
+﻿namespace CodeWars.PopulationGrowth
 {
     using System;
 

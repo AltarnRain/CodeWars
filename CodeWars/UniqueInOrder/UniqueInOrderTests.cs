@@ -1,4 +1,4 @@
-﻿namespace UniqueInOrder
+﻿namespace CodeWars.UniqueInOrder
 {
     using NUnit.Framework;
     using System;

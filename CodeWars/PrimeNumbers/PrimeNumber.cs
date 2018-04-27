@@ -1,4 +1,4 @@
-﻿namespace PrimeNumbers
+﻿namespace CodeWars.PrimeNumbers
 {
     public static class Kata
     {

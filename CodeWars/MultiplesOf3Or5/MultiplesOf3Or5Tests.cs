@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 
 
-namespace MultiplesOf3Or5
+namespace CodeWars.MultiplesOf3Or5
 {
     [TestFixture]
     public class MultiplesOf3Or5Tests

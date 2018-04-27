@@ -2,7 +2,7 @@
 
 using System.Linq;
 
-namespace MultiplesOf3Or5
+namespace CodeWars.MultiplesOf3Or5
 {
     public static class Kata
     {
