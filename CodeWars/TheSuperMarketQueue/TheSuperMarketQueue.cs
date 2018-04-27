@@ -33,14 +33,18 @@ namespace CodeWars.TheSuperMarketQueue
             //}
 
             //return totalTime;
+
+            // Solution from CodeWars. Not mine.
             var registers = new List<int>(Enumerable.Repeat(0, n));
 
+            // This works by adding the customer time to the register with the lowest amount of time spent.
             foreach (int cust in customers)
             {
                 registers[registers.IndexOf(registers.Min())] += cust;
             }
-            return registers.Max();
 
+            // The register with the most amount of time spend is the total time.
+            return registers.Max();
         }
 
 
