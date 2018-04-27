@@ -70,6 +70,8 @@
     <Compile Include="Scrambles\ScramblesTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheSuperMarketQueue\TheSuperMarketQueue.cs" />
+    <Compile Include="TheSuperMarketQueue\TheSuperMarketQueueTests.cs" />
     <Compile Include="UniqueInOrder\UniqueInOrder.cs" />
     <Compile Include="UniqueInOrder\UniqueInOrderTests.cs" />
   </ItemGroup>
