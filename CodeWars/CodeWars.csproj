@@ -52,6 +52,8 @@
     <Compile Include="BitCounting\BitCountingTests.cs" />
     <Compile Include="CountCharactersInString\CountCharactersInString.cs" />
     <Compile Include="CountCharactersInString\CountCharactersInStringTests.cs" />
+    <Compile Include="MexicanWave\MexicanWave.cs" />
+    <Compile Include="MexicanWave\MexicanWaveTests.cs" />
     <Compile Include="PlayingWithDigits\PlayingWithDigits.cs" />
     <Compile Include="PlayingWithDigits\PlayingWithDigitsTests.cs" />
     <Compile Include="SimpleFractionToMixedNumberConverter\SimpleFractionToMixedNumberConverter.cs" />
@@ -94,6 +96,7 @@
   <ItemGroup>
     <Content Include="CountSmilyFaces\Instructions.txt" />
     <Content Include="DeleteNth\Instructions.txt" />
+    <Content Include="MexicanWave\Instructions.txt" />
     <Content Include="PlayingWithDigits\Instructions.txt" />
     <Content Include="PopulationGrowth\Instructions.txt" />
     <Content Include="Scrambles\Instructions.txt" />
