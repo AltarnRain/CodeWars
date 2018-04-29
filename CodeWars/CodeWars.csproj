@@ -54,6 +54,8 @@
     <Compile Include="CountCharactersInString\CountCharactersInStringTests.cs" />
     <Compile Include="PlayingWithDigits\PlayingWithDigits.cs" />
     <Compile Include="PlayingWithDigits\PlayingWithDigitsTests.cs" />
+    <Compile Include="SimpleFractionToMixedNumberConverter\SimpleFractionToMixedNumberConverter.cs" />
+    <Compile Include="SimpleFractionToMixedNumberConverter\SimpleFractionToMixedNumberConverterTests.cs" />
     <Compile Include="SortTheOdd\SortTheOdd.cs" />
     <Compile Include="SortTheOdd\SortTheOddTests.cs" />
     <Compile Include="CountSmilyFaces\CountSmilyFaces.cs" />
@@ -95,6 +97,7 @@
     <Content Include="PlayingWithDigits\Instructions.txt" />
     <Content Include="PopulationGrowth\Instructions.txt" />
     <Content Include="Scrambles\Instructions.txt" />
+    <Content Include="SimpleFractionToMixedNumberConverter\Instructions.txt" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
