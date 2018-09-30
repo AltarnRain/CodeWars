@@ -80,6 +80,8 @@
     <Compile Include="Scrambles\ScramblesTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SquareIntoSquares\SquareIntoSquares.cs" />
+    <Compile Include="SquareIntoSquares\SquareIntoSquaresTests.cs" />
     <Compile Include="TheSuperMarketQueue\TheSuperMarketQueue.cs" />
     <Compile Include="TheSuperMarketQueue\TheSuperMarketQueueTests.cs" />
     <Compile Include="TortoiseRace\TortoiseRace.cs" />
@@ -101,6 +103,7 @@
     <Content Include="PopulationGrowth\Instructions.txt" />
     <Content Include="Scrambles\Instructions.txt" />
     <Content Include="SimpleFractionToMixedNumberConverter\Instructions.txt" />
+    <Content Include="SquareIntoSquares\Instructions.txt" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
