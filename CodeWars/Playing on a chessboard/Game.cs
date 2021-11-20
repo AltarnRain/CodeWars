@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodeWars.Playingonachessboard
 {
@@ -10,7 +7,21 @@ namespace CodeWars.Playingonachessboard
     {
         public static string game(long n)
         {
-            return null;
+            if (n == 0)
+            {
+                return "[0]";
+            }
+
+            var n2 = n * n;
+
+            if (n2 % 2 == 0)
+            {
+                return $"[{n2 / 2}]"; ;
+            }
+            else
+            {
+                return $"[{n2}, 2]"; ;
+            }
         }
     }
 }

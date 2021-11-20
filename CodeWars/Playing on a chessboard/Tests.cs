@@ -7,9 +7,6 @@ namespace CodeWars.Playingonachessboard
     [TestFixture]
     public class Suite2Tests
     {
-
-        Random randomGenerator = new Random();
-
         [Test]
         public void Test01()
         {
